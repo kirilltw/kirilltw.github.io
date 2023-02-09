@@ -1,7 +1,15 @@
+---
+layout: default
+title: Content Functions
+permalink: /content-functions/
+---
+
+[Homepage](./index.md) > {{ page.title }}
+
 # Content Functions
 
-> Published on 23 July 2021<br>
-> This is an adaptation of the article published at <https://documentation.divio.com/introduction/> with added clarifications to better contextualize the material.
+> Originally written and published on 23 July 2021<br>
+> This is an adaptation of the article at <https://documentation.divio.com/introduction/> with added clarifications to better contextualize the material.
 
 A lot of people try to create good documentation. Many of them fail. Usually, it is not because they do not try hard enough, but because they are not doing it the right way. This system is a way to make your documentation better by doing it the right way. **The right way is the easier way** - easier to write, and easier to maintain.
 
@@ -26,13 +34,13 @@ Table *Content Functions*
 | Reader's goal | Learn by doing | Complete a specific task | Look up info / data | Study theory |
 | Content's goal | Allow a newcomer to get started | Show how to solve a specific problem | Describe the machinery | Provide background knowledge |
 | Mode of writing | Lesson | Procedure, series of steps | Dry description | Discursive explanation |
-| Usual formatting | Numbered list | Numbered list | Table, bulletted / numbered list | Text and illustrations |
+| Usual formatting | Numbered list | Numbered list | Table, bulleted / numbered list | Text and illustrations |
 | HW doc analogy | ? | Programming procedure | Register / Process Description | Peripheral Overview |
 | HW doc example (TRM) | ? | In a TRM, see Sections *Programming Procedure* | In a TRM, see Sections *Registers* | In a TRM, see Sections *Introduction*
 | SW doc analogy | Getting started guide | SW installation / configuration procedure | API reference, SW process | Introduction to an API reference |
-| SW doc example (ESP-IDF) | [ESP-IDF Getting Started](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/index.html) | [Install pre-commit Hook for ESP-IDF Project](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/contribute/install-pre-commit-hook.html) | [API reference](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/storage/nvs_flash.html#api-reference) for *Non-volatile storage library*, [Flash Encryption Process](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/security/flash-encryption.html#flash-encryption-process) for *Flash Encryptoin* | [Introduction](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/storage/nvs_flash.html#non-volatile-storage-library) for *Non-volatile storage library* |
+| SW doc example (ESP-IDF) | [ESP-IDF Getting Started](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/index.html) | [Install pre-commit Hook for ESP-IDF Project](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/contribute/install-pre-commit-hook.html) | [API reference](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/storage/nvs_flash.html#api-reference) for *Non-volatile storage library*, [Flash Encryption Process](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/security/flash-encryption.html#flash-encryption-process) for *Flash Encryption* | [Introduction](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/storage/nvs_flash.html#non-volatile-storage-library) for *Non-volatile storage library* |
 
-Sometimes, a document fulfills only **one content function**. It is more characteristic to online wiritng with its multitude of interlinked pages. A famous advocator of this approach is Mark Baker with his [Every Page is Page One](https://everypageispageone.com/the-book/) approach.
+Sometimes, a document fulfills only **one content function**. It is more characteristic to online writing with its multitude of interlinked pages. A famous advocate of this approach is Mark Baker with his [Every Page is Page One](https://everypageispageone.com/the-book/) approach.
 
 However, more often a single document **combines different content functions**. For example, it is pretty often that Espressif's documentation combines:
 
@@ -56,9 +64,9 @@ With regards to arranging the information, there is another content function of 
 2.  Intra-document navigation, such as introduction to a document or a jump list
 As an example, see [Installation Step by Step](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/index.html#installation-step-by-step)
 
-In fact, it’s extremely hard to maintain good documentation that does not implicitly or explicitly recognise the quadrants of this scheme. The demands of each kind are different from those of the others, so any attempt at documentation that fails to maintain this structure suffers, as it’s pulled in different directions at once.
+In fact, it’s extremely hard to maintain good documentation that does not implicitly or explicitly recognize the quadrants of this scheme. The demands of each kind are different from those of the others, so any attempt at documentation that fails to maintain this structure suffers, as it’s pulled in different directions at once.
 
-Once you understand the structure, it becomes a very useful tool for analysing existing documentation, and understanding what needs to be done to improve it.
+Once you understand the structure, it becomes a very useful tool for analyzing existing documentation, and understanding what needs to be done to improve it.
 
 For more information on the content functions, see the original articles
 
