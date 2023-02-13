@@ -6,7 +6,7 @@ permalink: /create-prof-looking-diagrams/
 
 [Homepage](./index.md) > {{ page.title }}
 
-# Create Professionally Looking Diagrams
+# {{page.title}}
 
 Diagrams play an important role in communicating complex technical information. They can be used to effectively and efficiently visualize hierarchies, circuits, communication processes, procedures, workflows, and any other interactions within or between different elements.
 

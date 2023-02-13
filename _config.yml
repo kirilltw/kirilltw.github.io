@@ -17,9 +17,9 @@ title: My Portfolio
 #email: your-email@example.com
 #github_username:  kirilltw
 description: >- # this means to ignore newlines until "baseurl:"
-  I created this website to demonstrate 
-  some of my writing samples as well as to play around with 
-  GitHub Pages, Docker, Jekyll, and other awesome software!
+  I created this website to publish 
+  some of my writing samples as well as to demonstrate my skills using 
+  Git, GitHub Pages, Docker, Jekyll and Mermaid.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://kirilltw.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 

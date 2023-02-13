@@ -6,7 +6,7 @@ permalink: /content-functions/
 
 [Homepage](./index.md) > {{ page.title }}
 
-# Content Functions
+# {{page.title}}
 
 > Originally written and published on 23 July 2021<br>
 > This is an adaptation of the article at <https://documentation.divio.com/introduction/> with added clarifications to better contextualize the material.
