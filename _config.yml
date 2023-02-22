@@ -38,6 +38,9 @@ repository: "kirilltw/kirilltw.github.io"
 # See https://github.com/github/pages-gem/issues/399
 #github: [metadata]
 
+# Google Analytics v4
+google_analytics_v4: G-LFH386QZ05
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
